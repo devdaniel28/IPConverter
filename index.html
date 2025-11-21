@@ -14,13 +14,20 @@
     </header>
     <main>
         <section id="converter">
-            <p>Ip:</p>
-            <input type="text" name="text" id="areaip">
+            <h4>Ip:</h4>
+            <aside>
+                <input type="text" name="areaip" id="areaip" maxlength="15" placeholder="0.0.0.0">
+                <button id="summon" onclick="ConverterIp()">Gerar</button>
+            </aside>
         </section>
         <section id="result">
-            <!--Todo: Aplicar o estilo and o script -->
+            <h4>Result:</h4>
+                <textarea name="result" id="resultbinary"></textarea>
         </section>
     </main>
+    <footer>
+        <p>&copy; <a href="#">dvcDaniel</a> 2025 Todos os direitos reservados</p>
+    </footer>
 </body>
 <script src="src/script/script.js"></script>
 </html>

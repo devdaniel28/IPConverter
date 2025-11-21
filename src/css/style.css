@@ -5,4 +5,142 @@ body {
     color: #e0ecf0;
     background: #000000da;
     font-family: "Source Code Pro", monospace;
+
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: 2vh 0.5vw;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 25pt;
+    font-weight: 650;
+}
+
+#result, #converter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 40%;
+
+    margin: 2vh auto;
+}
+
+#converter aside {
+    display: flex;
+    justify-content: space-evenly;
+    place-content: center start;
+    gap: 0.8vh;
+
+    margin: 0;
+    padding: 0;
+}
+
+#areaip {
+    background: #000000da;
+    border: #e0ecf0 solid 0.8px;
+    border-radius: 10px;
+    color: #e0ecf0;
+
+    font-size: 18pt;
+    width: 90%;
+
+    padding: 1vh;
+}
+
+#areaip::placeholder {
+    color: #e0ecf0;
+    opacity: 0.6;
+}
+
+#summon {
+    width: 4vw;
+    
+    background: #000000da;
+    border: #e0ecf0 solid 0.8px;
+    border-radius: 10px;
+    
+    color: #e0ecf0;
+    font-weight: 600;
+    font-size: 15pt;
+
+    transition: all 0.5s ease;
+}
+
+#summon:hover {
+    color: #229220;
+    font-weight: 300;
+    opacity: 0.8;
+    transform: scale(1.2);
+}
+
+#resultbinary {
+    background: #000000da;
+    border: #e0ecf0 solid 0.8px;
+    border-radius: 8px;
+    color: #e0ecf0;
+    
+    min-width: 40vw;
+    max-width: 100%;
+    max-height: 28vh;
+    min-height: 12vh;
+
+    font-size: 18pt;
+    padding: 1vh;
+
+    color: #229220;
+}
+
+footer {
+    text-align: center;
+    margin: 1vh 0;
+}
+
+footer p {
+    font-size: 14pt;
+    font-weight: 600;
+}
+
+footer p a {
+    color: #229220;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 850px) {
+    #result, #converter {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        width: 58%;
+
+        margin: 2vh auto;
+    }   
+    
+    #converter aside {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        place-content: center center;
+        gap: 0.8vh;
+
+        margin: 0;
+        padding: 0;
+    }
+
+        #summon {
+        width: auto;
+        
+        background: #000000da;
+        border: #e0ecf0 solid 0.8px;
+        border-radius: 10px;
+        
+        color: #e0ecf0;
+        font-weight: 600;
+        font-size: 15pt;
+    }
 }
