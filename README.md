@@ -124,4 +124,4 @@ Para ver a licença completa, acesse: [GNU GPL v2.0](LICENSE)
 
 ´´´
 
-**Assinado:** dvcDaniel(eu)
+**Assinado:** dvcDaniel
